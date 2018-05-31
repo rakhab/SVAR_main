@@ -57,7 +57,7 @@ parI_exp_fa,  E,1,0,1,norm,0.5,0.05,1
 parC_exp_liq,  E,1,2,6,norm,3,1,1
 parC_exp_recov,  E,1,0,1,norm,0.5,0.1,1
 parC_exp_irnorm,  E,1,10,30,norm,20,2,1
-parC_exp_defrisk,  E,1,0.01,1.01,unif,,,1
+parC_exp_defrisk,  E,1,0.01,1.01,unif,,,0
 parI_exp_incomeP,  E,1,0,100,norm,30,10,1
 parI_exp_income,  E,1,0,100,norm,30,10,1
 parI_exp_fwealth,  E,1,0,0.5,norm,0.25,0.05,1
@@ -66,7 +66,7 @@ parI_hh_fa,  N,1,0,1,norm,0.5,0.05,1
 parC_hh_liq,  N,1,2,6,norm,3,1,1
 parC_hh_recov,  N,1,0,1,norm,0.5,0.1,1
 parC_hh_irnorm,  N,1,0,1,unif,,,1
-parC_hh_defrisk,  N,1,0.01,1.01,unif,,,1
+parC_hh_defrisk,  N,1,0.01,1.01,unif,,,0
 parI_hh_incomeP,  N,1,0,100,norm,30,10,1
 parI_hh_income,  N,1,0,100,norm,30,10,1
 parI_hh_fwealth,  N,1,0,0.5,norm,0.25,0.05,1
