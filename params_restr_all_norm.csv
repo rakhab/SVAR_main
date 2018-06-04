@@ -1,5 +1,5 @@
 par_name,nrow,ncol,min,max,prior_func,mean,sd,in_small_model
-parS_di2 ,  N, T ,0,0.3,norm,0.1,0.01,1
+parS_di2 ,  N, T ,0,0.3,norm,0.1,0.1,1
 parS_di2e ,  E, T ,0,0.3,norm,0.1,0.05,1
 parS_gcf ,  N, T ,0,1,unif,,,1
 parS_gcfe ,  E, T ,0,1,unif,,,1
