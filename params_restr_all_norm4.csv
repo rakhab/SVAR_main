@@ -1,0 +1,75 @@
+par_name,nrow,ncol,min,max,prior_func,mean,sd,in_small_model
+parS_di2 ,  N, T ,0,0.3,norm,0.1,0.05,1
+parS_di2e ,  E, T ,0,0.3,norm,0.1,0.05,1
+parS_gcf ,  N, T ,0,1,unif,,,1
+parS_gcfe ,  E, T ,0,1,unif,,,1
+parS_cwe,  E, T ,-0.01,0.01,norm,0,0.0025,1
+parS_cw,  N, T ,-0.05,0.05,norm,0,0.0025,1
+parS_def,  N, T ,0,1,unif,,,0
+parS_defe,  E, T ,0,1,unif,,,0
+parS_cd,  N, T ,0,0.4,norm,0.2,0.05,1
+parS_cde,  E, T ,0,0.4,norm,0.2,0.05,1
+parS_md,  N, T ,0,1,unif,,,1
+parS_mde,  E, T ,0,1,unif,,,1
+parS_rbank ,  N, T ,0,1,unif,,,0
+parS_inf ,  N, T ,0,1,unif,,,0
+parS_rbanke ,  E, T ,0,1,unif,,,0
+parS_infe ,  E, T ,0,1,unif,,,0
+parC_si,1,1,0,1,norm,0.25,0.05,1
+parC_infT,1,1,0.5,0.5,unif,,,0
+parC_bp4,1,1,0,5,norm,2,0.05,1
+parC_bp3,1,1,0.25,0.25,unif,,,0
+parC_bp2,1,1,0.25,0.25,unif,,,0
+parC_bp1,1,1,0,5,norm,3,0.05,1
+parC_bp0,1,1,0,5,norm,1.5,0.025,1
+parC_erp1,1,1,0,1,norm,0.9,0.1,1
+parC_fa,1,1,0,1,norm,0.66,0.1,1
+parC_cfr,1,1,0.33,0.33,unif,,,0
+parC_gcfexp,1,1,0,0.1,norm,0.0075,0.001,1
+parC_gcfhh,1,1,0,0.1,norm,0.0025,0.001,1
+parC_fir,1,1,1,10,norm,5,1,1
+parC_fdm,1,1,0,15,norm,10,2,1
+parC_ldem ,1,1,0,4,norm,2,0.5,1
+parC_imp ,1,1,0,1,norm,0.33,0.05,1
+parC_di1 ,1,1,0,1,norm,0.9,0.05,1
+parC_dw ,1,1,0,0.5,norm,0.1,0.025,1
+parC_ip1 ,1,1,0,1,norm,0.9,0.025,1
+parC_fir ,1,1,5,5,unif,,,0
+parC_ds ,1,1,0,10,norm,3,1,1
+parC_cs ,1,1,0,10,norm,3,1,1
+parC_term1 ,1,1,0,1,norm,0.95,0.01,1
+parC_term2 ,1,1,0,1,norm,0.99,0.01,1
+parI_dep_e_term ,  E,1,0,1,unif,,,1
+parI_dep_term ,  N,1,0,1,unif,,,1
+parI_dep_e_ir1 ,  E,1,1,2,unif,,,1
+parI_dep_am ,  N,1,20,40,norm,30,3,1
+parI_dep_e_am ,  E,1,20,40,norm,30,1,1
+parI_dep_ir1 ,  N,1,1,2,norm,1.5,1,1
+parI_loan_e_mat ,  E,1,1,4,unif,,,1
+parI_dep_e_mat ,  E,1,1,4,unif,,,1
+parI_dep_e_mat0 ,  E,1,0,2,unif,,,1
+parI_loan_e_ir1 ,  E,1,0,2,norm,2,1,1
+parI_loan_mat ,  N,1,1,4,unif,,,1
+parI_dep_mat ,  N,1,1,2,unif,,,1
+parI_dep_mat0 ,  N,1,0,2,unif,,,1
+parI_loan_ir1 ,  N,1,1,2,norm,2,1,1
+parI_exp_fa,  E,1,0,1,norm,0.5,0.05,1
+parC_exp_liq,  E,1,2,4,norm,3,1,1
+parC_exp_recov,1,1,0,1,norm,0.5,0.1,1
+parC_exp_irnorm,  E,1,14,24,norm,20,2,1
+parC_exp_defrisk,  E,1,0.01,1.01,unif,,,0
+parI_exp_incomeP,  E,1,0,100,norm,30,1,1
+parI_exp_income,  E,1,0,100,norm,30,1,1
+parI_exp_fwealth,  E,1,0,0.25,norm,0.125,0.05,1
+parI_exp_fdebt,  E,1,0,0.25,norm,0.125,0.05,1
+parI_hh_fa,  N,1,0,0.5,norm,0.5,0.05,1
+parC_hh_liq,  N,1,2,4,norm,3,1,1
+parC_hh_recov,1,1,0,1,norm,0.5,0.1,1
+parC_hh_irnorm,  N,1,14,24,unif,,,1
+parC_hh_defrisk,  N,1,0.01,1.01,unif,,,0
+parI_hh_incomeP,  N,1,20,40,norm,30,3,1
+parI_hh_income,  N,1,20,40,norm,30,3,1
+parI_hh_fwealth,  N,1,0,0.25,norm,0.125,0.05,1
+parI_hh_fdebt,  N,1,0,0.25,norm,0.125,0.05,1
+parI_wallet_am,  N,1,0,5,norm,2.5,2.5,1
+parI_wallet_e_am,  E,1,0,5,norm,2.5,2.5,1
