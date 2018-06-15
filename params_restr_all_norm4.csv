@@ -53,23 +53,23 @@ parI_loan_mat ,  N,1,1,4,unif,,,1
 parI_dep_mat ,  N,1,1,2,unif,,,1
 parI_dep_mat0 ,  N,1,0,2,unif,,,1
 parI_loan_ir1 ,  N,1,1,2,norm,2,1,1
-parI_exp_fa,  E,1,0,1,norm,0.5,0.05,1
+parI_exp_fa,  E,1,0,1,norm,0.5,0.05,0
 parC_exp_liq,  E,1,2,4,norm,3,1,1
 parC_exp_recov,1,1,0,1,norm,0.5,0.1,1
 parC_exp_irnorm,  E,1,14,24,norm,20,2,1
 parC_exp_defrisk,  E,1,0.01,1.01,unif,,,0
 parI_exp_incomeP,  E,1,0,100,norm,30,1,1
 parI_exp_income,  E,1,0,100,norm,30,1,1
-parI_exp_fwealth,  E,1,0,0.25,norm,0.125,0.05,1
-parI_exp_fdebt,  E,1,0,0.25,norm,0.125,0.05,1
-parI_hh_fa,  N,1,0,0.5,norm,0.5,0.05,1
+parI_exp_fwealth,  E,1,0,0.5,norm,0.25,0.05,1
+parI_exp_fdebt,  E,1,0,0.25,norm,0.25,0.05,1
+parI_hh_fa,  N,1,0,0.5,norm,0.5,0.05,0
 parC_hh_liq,  N,1,2,4,norm,3,1,1
 parC_hh_recov,1,1,0,1,norm,0.5,0.1,1
 parC_hh_irnorm,  N,1,14,24,unif,,,1
 parC_hh_defrisk,  N,1,0.01,1.01,unif,,,0
 parI_hh_incomeP,  N,1,20,40,norm,30,3,1
 parI_hh_income,  N,1,20,40,norm,30,3,1
-parI_hh_fwealth,  N,1,0,0.25,norm,0.125,0.05,1
-parI_hh_fdebt,  N,1,0,0.25,norm,0.125,0.05,1
+parI_hh_fwealth,  N,1,0,0.5,norm,0.25,0.05,1
+parI_hh_fdebt,  N,1,0,0.25,norm,0.25,0.05,1
 parI_wallet_am,  N,1,0,5,norm,2.5,2.5,1
 parI_wallet_e_am,  E,1,0,5,norm,2.5,2.5,1
