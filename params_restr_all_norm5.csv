@@ -48,7 +48,7 @@ parI_dep_ir1 ,  N,1,1,2,norm,1.5,1,1
 parI_loan_e_mat ,  E,1,1,4,unif,,,1
 parI_dep_e_mat ,  E,1,1,4,unif,,,1
 parI_dep_e_mat0 ,  E,1,0,2,unif,,,1
-parI_loan_e_ir1 ,  E,1,0,2,norm,2,1,1
+parI_loan_e_ir1 ,  E,1,0,2.5,norm,2,0.5,1
 parI_loan_mat ,  N,1,1,4,unif,,,1
 parI_dep_mat ,  N,1,1,2,unif,,,1
 parI_dep_mat0 ,  N,1,0,2,unif,,,1
