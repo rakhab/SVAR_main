@@ -39,6 +39,8 @@ parC_ds ,1,1,0,10,norm,3,1,1
 parC_cs ,1,1,0,10,norm,3,1,1
 parC_term1 ,1,1,0,1,norm,0.95,0.01,1
 parC_term2 ,1,1,0,1,norm,0.99,0.01,1
+parC_dsr1 ,1,1,0.5,1.5,norm,1,0.025,1
+parC_dsr2 ,1,1,0.05,0.25,norm,0.15,0.01,1
 parI_dep_e_term ,  E,1,0,1,unif,,,1
 parI_dep_term ,  N,1,0,1,unif,,,1
 parI_dep_e_ir1 ,  E,1,1,2,unif,,,1
