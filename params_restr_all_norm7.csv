@@ -43,9 +43,9 @@ parC_dsr2 ;1;1;0.05;0.25;norm;0.15;0.01;0
 parC_exp_defrisk;  E;1;0.01;1.01;unif;;;1
 parC_hh_defrisk;  N;1;0.01;1.01;unif;;;1
 parC_exp_liq;  E;1;2;4;norm;3;1;1
-parC_exp_recov;1;1;0;1;norm;0.5;0.1;1
+parC_exp_recov;E;1;0;1;norm;0.5;0.1;1
 parC_hh_liq;  N;1;2;4;norm;3;1;1
-parC_hh_recov;1;1;0;1;norm;0.5;0.1;1
+parC_hh_recov;N;1;0;1;norm;0.5;0.1;1
 parC_exp_irnorm;  E;1;14;24;norm;20;2;1
 parC_hh_irnorm;  N;1;14;24;norm;20;2;1
 parI_dep_e_term ;  E;1;0;1;unif;;;1
